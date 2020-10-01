@@ -12,5 +12,5 @@ puts "[#{answ},#{ered}]"
 # url = "https://translifeline.org/hiring_stats_sample/"
 # r = Net::HTTP.get_response(URI.parse(url).host, URI.parse(url).path)
 
-# p if you are seeing these changes, i am trying to account for lost commits i had
+# p if you are seeing these changes, i am trying to account for lost commits i have lost, hence 'lost commits'
 
