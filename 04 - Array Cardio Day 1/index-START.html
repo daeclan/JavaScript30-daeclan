@@ -32,7 +32,7 @@
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
 
-    const fifteen = inventors.filter(function(inventor){
+    const fifteen = inventors.filter(inventor => {
       if(inventor.year >= 1500 && inventor.year <= 1599){
         return true;
       }else{
@@ -62,6 +62,7 @@
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
+    console.table(fifteen);
   </script>
 </body>
 </html>
